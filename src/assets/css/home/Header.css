@@ -1,0 +1,43 @@
+.menu{
+    padding: 20px 10px;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.menu ul li a{
+    padding: 5px 15px;
+    color: var(--light-blue);
+    border-radius: 10px;
+}
+
+.menu ul li a:hover{
+    text-decoration: none;
+    background-color: var(--light-gray);
+}
+
+.top-bar{
+    background-color: var(--light-blue);
+    padding: 5px 0;
+}
+
+.top-bar ul li{
+    display: inline-block;
+    color: #fff;
+}
+
+.top-bar ul li a, .top-bar p{
+    color: #fff;
+}
+
+.top-bar .social-media p, .top-bar .social-media ul{
+    display: inline-block;
+}
+
+
+.top-bar .container, .container.menu{
+    padding: 10px !important;
+}
+
