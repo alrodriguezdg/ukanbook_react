@@ -65,7 +65,7 @@ const HeaderHome = () => (
                                 </ul>                              
                             </li>
                             <li>
-                                <a href="#">Planes</a>
+                                <a href="#/planes">Planes</a>
                             </li>
                             <li>
                                 <a href="#">Contacto</a>

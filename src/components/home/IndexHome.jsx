@@ -43,7 +43,7 @@ const IndexHome = () =>(
                             <form>
                                 <input type="text" placeholder="Usuario" required />
                                 <input type="password" placeholder="Contraseña" required />
-                                <button type="submit" className="btn btn-success">Iniciar Sesión</button>
+                                <a href="#/estudiantes/index" className="btn btn-block btn-login btn-success">Iniciar Sesión</a>
                             </form>
                             <p>
                                 ¿Aún no estás registrado? <a href="#">Regístrate Aquí</a>

@@ -8,7 +8,9 @@ const HeaderEstudiante = () => (
         <div class="container-fluid back-orange">
             <div class="row">
                 <div class="col-md-4 align-self-center">
-                    <img class="logo-inside" src={LogoBlanco} />
+                    <a href="#">
+                        <img class="logo-inside" src={LogoBlanco} />
+                    </a>                    
                 </div>
                 <div class="col-md-8 text-right align-self-center">
                     
