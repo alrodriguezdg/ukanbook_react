@@ -1,0 +1,344 @@
+.advantage{
+    background-color: var(--light-gray);
+    padding: 40px !important;
+    border-radius: 20px;
+    margin-left: -80px;
+}
+
+.advantage h2{
+    padding-bottom: 20px;
+    padding-top: 0;
+}
+
+.advantage ul li::marker{
+    color: var(--green);
+}
+
+.advantage ul li{
+    color: #000;
+}
+
+.benefits-container{
+    padding: 40px 0;
+}
+
+.benefits-container .card.benefits{
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    flex: 31%;
+    border: 0;
+    box-shadow: 0px 0px 3px var(--black-opacity);
+    
+}
+
+.benefits-container .card.benefits .text-benefit{
+    width: calc(100% - 80px);
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.benefits-container .card.benefits img{
+    max-width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.benefits-container .card.benefits .text-benefit h4{
+    font-size: 16px;
+    color: var(--light-blue);
+    font-weight: bold;
+}
+
+.benefits-container .card.benefits .text-benefit p{
+    font-size: 14px;
+}
+
+.pt-80{
+    padding: 80px 20px;
+}
+
+.inside-ukanbook h3{
+	margin-bottom: 20px;
+	color: #007EA1;
+    font-weight: 600;
+}
+
+
+.inside-banner{
+	padding: 70px 20px !important;
+	background-color: var(--dark-gray);
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.inside-banner.docentes{
+	background-image: url('../../../assets/images/home/inside/banner-interna-ukanbook-38.jpg');
+}
+
+.inside-banner.estudiantes{
+	background-image: url('../../../assets/images/home/inside/banner-interna-ukanbook-39.jpg');
+}
+
+.inside-banner.acudientes{
+	background-image: url('../../../assets/images/home/inside/banner-interna-ukanbook-40.jpg');
+}
+
+
+.inside-banner.planes{
+	background-image: url('../../../assets/images/home/inside/banner-interna-ukanbook-41.jpg');
+}
+
+.inside-banner .breadcrumb{
+	text-align: center;
+	display: block;
+	background-color: transparent;
+	color: #fff;
+	margin: 0 !important;
+}
+
+.inside-banner .breadcrumb a, .inside-banner h2{
+	color: #fff;
+	margin: 0;
+}
+
+.inside-banner .breadcrumb{
+	color: #fff;
+	font-size: 16px;
+}
+
+.main-banner{
+    background-image: url('../../../assets/images/home/index/banner-ukanbook-2021-10.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 20px 150px 20px;
+    background-position: center;
+}
+
+.main-banner .text-banner{
+    color: #fff;
+    font-size: 30px;
+}
+
+.main-banner .support-whatsapp{
+    margin: 15px 0 0;
+    font-size: 18px;
+}
+
+.main-banner .login-form{
+    padding: 40px 20px;
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 20px;
+}
+
+.main-banner .login-form h3{
+    text-align: center;
+    color: var(--light-blue);
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.main-banner .login-form h3 small{
+    display: block;
+    color: var(--gray);
+    font-size: 16px;
+}
+
+.main-banner .login-form input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0;
+    border: 1px solid var(--gray);
+}
+
+.main-banner .login-form p{
+    font-size: 14px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.main-banner .login-form p a{
+    color: var(--orange);
+    display: block;
+    font-weight: bold;
+}
+
+.main-banner .login-form > a{
+    font-size: 14px;
+    color: var(--light-blue);
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0;
+
+}
+
+.main-banner .login-form button{
+    max-width: 300px;
+    margin: 5px auto;
+    display: block;
+}
+
+.article-container .meta-blog ul{
+    list-style: none;
+}
+
+.article-container .meta-blog ul li{
+    display: inline-block;
+    padding: 5px;
+
+}
+
+.article-container .imgFeatured{
+    border-radius: 20px;
+}
+
+.article-container h3.title-article{
+    font-size: 20px;
+    color: var(--light-blue);
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.article-container a{
+    color: var(--orange);
+    float: right;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.article-container a:hover{
+    color: var(--orange);
+    background-color: var(--light-gray);
+}
+
+.subjects-container{
+    text-align: center;
+    display: block;
+}
+
+.subjects-container .subject{
+    margin: 10px;
+    text-align: center;
+    background-color: var(--light-gray);
+    width: 12%;
+    display: inline-block;
+    padding: 20px;
+    border: 0;
+}
+
+.subjects-container .subject img{
+    width: 60px;
+}
+
+.subject p{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.english{
+    background-color: var(--english) !important;
+    background-image:  url('../../../assets/images/home/general/texturas-ukanbook-52.jpg');
+    }
+
+.language{
+    background-color: var(--language) !important;
+    background-image:  url('../../../assets/images/home/general/texturas-ukanbook-53.jpg');
+}
+
+.math{
+    background-color: var(--math) !important;
+    background-image:  url('../../../assets/images/home/general/texturas-ukanbook-55.jpg');
+}
+
+.natural{
+    background-color: var(--naturals) !important;
+    background-image:  url('../../../assets/images/home/general/texturas-ukanbook-54.jpg');
+}
+
+.socials{
+    background-color: var(--socials) !important;
+    background-image:  url('../../../assets/images/home/general/texturas-ukanbook-56.jpg');
+}
+
+.critic{
+    background-color: var(--critic) !important;
+    background-image:  url('../../../assets/images/home/general/texturas-ukanbook-57.jpg');
+}
+
+.sexual{
+    background-color: var(--sexual) !important;
+    background-image:  url('../../../assets/images/home/general/texturas-ukanbook-58.jpg');
+}
+
+.testimonials{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.testimonials img{
+    width: 270px;
+}
+
+.testimonials .testimonial-text{
+    width: calc(100% - 270px);
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+.testimonials .testimonial-text em{
+    font-weight: 600 !important;
+    margin-top: 20px;
+    display: block;
+}
+
+.user-container {
+    padding: 40px;
+}
+
+.user-container > .row{
+    margin-top: -150px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px var(--black-opacity);
+    text-align: center;
+}
+
+.user-container .card.users{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    width: calc(25% - 25px);
+    background-color: var(--light-gray);
+    border: 0;
+    display: inline-block;
+}
+
+.user-container .card.users img{
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.user-container .card.users h4{
+    font-size: 22px;
+    color: var(--light-blue);
+}
+
+.user-container .card.users h3{
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.user-container .row{
+    display: block;
+}

@@ -1,0 +1,11 @@
+header > div{
+	padding: 10px;
+}
+
+.back-orange{
+	background-color: var(--orange);
+}
+
+.logo-inside{
+	max-width: 170px;
+}

@@ -1,0 +1,173 @@
+/****PLAN PREMIUM***/
+
+.PlanAside {
+    margin-right: -2em;
+    }
+
+ .PlanAside h5 {
+    height: 40px;
+    line-height: 40px;
+    padding-left: .4em;
+    font-size: 25px;
+    text-align: left;
+    color: #0a4e64;
+}
+.PlanAside ul {
+    padding: 0;
+    margin-top: 24px;
+}
+
+.PlanAside li {
+    color: #7c7c7c;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 1em .8em;
+    list-style: none;
+    text-align: left;
+}
+
+.Plan.anual .PlanRow
+{
+	color: #1e7e28;
+}
+
+.Plan.mensual .PlanRow
+{
+	color: #e48725;
+}
+
+.Plan.anualInst .PlanRow {
+    color: #0a4e64;
+}
+
+.Plan {
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.Plan .PlanLabel{
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.2);
+    margin-bottom: 1px;
+}
+
+.Plan.anual .PlanLabel {
+    background: var(--green);
+    color: #fff;
+}
+
+.Plan.mensual .PlanLabel {
+    background: var(--orange);
+    color: #fff;
+}
+
+.Plan.anualInst .PlanLabel {
+    background: var(--dark-blue);
+    color: #fff;
+}
+
+.Plan.sixmonth .PlanLabel {
+    background: var(--english);
+    color: #fff;
+}
+
+.Plan .btn.buy-ukanbook{
+    background-color: white;
+    border: 0;
+    color: var(--green);
+    margin: 13px 0;
+    transition: all .3s ease-in-out;
+}
+
+.Plan .btn.buy-ukanbook:hover{
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    transition: all .3s ease-in-out;
+}
+
+.PlanLabel h4 {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    max-width: 150px;
+    margin: 0 auto;
+    min-height: 80px;
+}
+
+.PlanLabel h4 small{
+    display: block;
+    font-size: 14px;
+}
+
+.PlanLabel span{
+	display: block;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.PlanLabel {
+    background: #1c3643;
+    color: #fff;
+    text-align: center;
+    padding: 21px 0;
+}
+
+.PlanHeader {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+    -webkit-box-orient: vertical;
+	-ms-box-orient: vertical;    
+    -o-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -o-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.PlanRow {
+    color: #000;
+    height: 50px;
+    line-height: 50px;
+    box-sizing: border-box;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.Plan.sixmonth .PlanLabel small, .Plan.anualInst .PlanLabel small{
+    color: #fff;
+}
+
+.PlanHeader-cost {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0px;
+	text-align: center;
+}
+
+.PlanHeader img {
+    border-radius: 50%;
+    overflow: hidden;
+    background: #fecc01;
+    width: 16px;
+    height: 16px;
+}
+
+.PlanHeader small {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.Plan-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}

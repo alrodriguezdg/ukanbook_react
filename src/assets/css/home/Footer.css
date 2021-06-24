@@ -28,3 +28,8 @@ footer h4{
     font-weight: bold;
     margin-bottom: 20px;
 }
+
+footer .colophon{
+    background-color: var(--dark-blue);
+    padding: 20px;
+}

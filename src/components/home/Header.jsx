@@ -51,7 +51,18 @@ const HeaderHome = () => (
                     <nav>
                         <ul>
                             <li>
-                                <a href="#">Nuestros Usuarios</a>                                
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nuestros Usuarios</a>  
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#/estudiantes">Estudiantes</a>      
+                                    </li>
+                                    <li>
+                                        <a href="#/docentes">Docentes</a>      
+                                    </li>
+                                    <li>
+                                        <a href="#/acudientes">Acudientes</a>      
+                                    </li>    
+                                </ul>                              
                             </li>
                             <li>
                                 <a href="#">Planes</a>
