@@ -91,6 +91,15 @@
 	background-image: url('../../../assets/images/home/inside/banner-interna-ukanbook-41.jpg');
 }
 
+.inside-banner.contacto{
+	background-image: url('../../../assets/images/home/inside/Web-ukanbook-2021-66.png');
+}
+.inside-banner.blog{
+    background-image: url('../../../assets/images/home/inside/Web-ukanbook-2021-67.png');
+}
+
+
+
 .inside-banner .breadcrumb{
 	text-align: center;
 	display: block;

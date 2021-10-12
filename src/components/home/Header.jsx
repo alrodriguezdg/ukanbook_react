@@ -68,10 +68,10 @@ const HeaderHome = () => (
                                 <a href="#/planes">Planes</a>
                             </li>
                             <li>
-                                <a href="#">Contacto</a>
+                                <a href="#/contacto">Contacto</a>
                             </li>
                             <li>
-                                <a href="#">Blog</a>
+                                <a href="#/blog">Blog</a>
                             </li>
                             <li>
                                 <a href="#" className="btn btn-warning">Regístrate</a>
