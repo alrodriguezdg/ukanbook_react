@@ -27,7 +27,7 @@ const IndexHome = () =>(
                 <div className="row">
                     <div className="col-md-8 col-sm-12 align-self-center">
                         <h3 className="text-banner">
-                            <b>Ukanbook</b> es la plataforma de educación virtual donde podrás <b>mejorar tu rendimiento académico</b> y ser el <b>mejor en las pruebas saber.</b>
+                            <b>LUISA</b> es la plataforma de educación virtual donde podrás <b>mejorar tu rendimiento académico</b> y ser el <b>mejor en las pruebas saber.</b>
                         </h3>
                         <a href="#" className="btn btn-success support-whatsapp">
                             <i className="fab fa-whatsapp"></i>
