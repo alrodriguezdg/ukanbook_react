@@ -13,13 +13,21 @@ import './assets/css/home/Footer.css'
 
 const Home = lazy(() => import('./pages/home/Index'))
 const Estudiantes = lazy(() => import('./pages/home/Estudiantes'))
-const IndexEst = lazy(() => import('./pages/estudiantes/IndexEstudiantes'))
 const Docentes = lazy(() => import('./pages/home/Docentes'))
 const Acudientes = lazy(() => import('./pages/home/Acudientes'))
 const Planes = lazy(() => import('./pages/home/Planes'))
 const Contacto = lazy(() => import('./pages/home/Contacto'))
 const Blog = lazy(() => import('./pages/home/Blog'))
 const BlogInside = lazy(() => import('./pages/home/BlogInside'))
+
+
+const IndexEst = lazy(() => import('./pages/estudiantes/IndexEstudiantes'))
+const PerfilEstudiante = lazy(() => import('./pages/estudiantes/EditarPerfilEstudiante'))
+const VideoTutorial = lazy(() => import('./pages/estudiantes/VideoTutorial'))
+const GuiadeUso = lazy(() => import('./pages/estudiantes/Guia_de_Uso'))
+const MisCursos = lazy(() => import('./pages/estudiantes/MisCursos'))
+const VerCurso = lazy(() => import('./pages/estudiantes/VerCurso'))
+
 
 function App() {
   return (
@@ -28,13 +36,18 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/estudiantes" component={Estudiantes} />
-          <Route exact path="/estudiantes/index" component={IndexEst} />
           <Route exact path="/docentes" component={Docentes} />
           <Route exact path="/acudientes" component={Acudientes} />
           <Route exact path="/planes" component={Planes} />
           <Route exact path="/contacto" component={Contacto} />
           <Route exact path="/blog" component={Blog} />
           <Route exact path="/blog-inside/:id" component={BlogInside} />
+          <Route exact path="/estudiantes/index" component={IndexEst} />
+          <Route exact path="/estudiantes/perfil" component={PerfilEstudiante} />
+          <Route exact path="/estudiantes/videoTutorial" component={VideoTutorial} />
+          <Route exact path="/estudiantes/Guiadeuso" component={GuiadeUso} />
+          <Route exact path="/estudiantes/MisCursos" component={MisCursos} />
+          <Route exact path="/estudiantes/VerCurso/:id" component={VerCurso} />
         </Switch>
       </Suspense>
     </HashRouter>

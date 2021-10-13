@@ -5,7 +5,7 @@ const Sidebar = () => (
     <div class="menu-side student">
         <ul>
             <li>
-                <a href="#/estudiantes/index">
+                <a href="#/estudiantes/MisCursos">
                     <i class="fa fa-book-open"></i>
                     Mis cursos
                 </a>
@@ -29,19 +29,19 @@ const Sidebar = () => (
                 </a>
             </li>
             <li>
-                <a href="#/estudiantes/index">
+                <a href="#/estudiantes/Guiadeuso">
                     <i class="fa fa-map"></i>
                     Guía de Uso
                 </a>
             </li>
             <li>
-                <a href="#/estudiantes/index">
+                <a href="#/estudiantes/videoTutorial">
                     <i class="fa fa-play-circle"></i>
                     Videotutorial
                 </a>
             </li>
             <li>
-                <a href="#/estudiantes/index">
+                <a href="#/estudiantes/perfil">
                     <i class="fa fa-user"></i>
                     Editar Perfil
                 </a>
