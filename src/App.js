@@ -27,6 +27,10 @@ const VideoTutorial = lazy(() => import('./pages/estudiantes/VideoTutorial'))
 const GuiadeUso = lazy(() => import('./pages/estudiantes/Guia_de_Uso'))
 const MisCursos = lazy(() => import('./pages/estudiantes/MisCursos'))
 const VerCurso = lazy(() => import('./pages/estudiantes/VerCurso'))
+const Foro = lazy(() => import('./pages/estudiantes/Foro'))
+const PlandeMejoramiento = lazy(() => import('./pages/estudiantes/PlandeMejoramiento'))
+const Estadisticas = lazy(() => import('./pages/estudiantes/Estadisticas'))
+const CursoInterno = lazy(() => import('./pages/estudiantes/CursoInterno'))
 
 
 function App() {
@@ -48,6 +52,10 @@ function App() {
           <Route exact path="/estudiantes/Guiadeuso" component={GuiadeUso} />
           <Route exact path="/estudiantes/MisCursos" component={MisCursos} />
           <Route exact path="/estudiantes/VerCurso/:id" component={VerCurso} />
+          <Route exact path="/estudiantes/VerCurso/:id/foro" component={Foro} />
+          <Route exact path="/estudiantes/VerCurso/:id/plan" component={PlandeMejoramiento} />
+          <Route exact path="/estudiantes/VerCurso/:id/Estadisticas" component={Estadisticas} />
+          <Route exact path="/estudiantes/VerCurso/:id/interno" component={CursoInterno} />
         </Switch>
       </Suspense>
     </HashRouter>

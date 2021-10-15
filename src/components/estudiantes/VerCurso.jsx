@@ -39,13 +39,13 @@ function VerCurso() {
                         <a href="curso-interna.html" class="active">
                             Lecciones
                         </a>
-                        <a href="foro.html">
+                        <a href="#/estudiantes/VerCurso/1/foro">
                             Foro
                         </a>
-                        <a href="plan-mejoramiento.html">
+                        <a href="#/estudiantes/VerCurso/1/plan">
                             Plan de Mejoramiento
                         </a>
-                        <a href="estadisticas.html">
+                        <a href="#/estudiantes/VerCurso/1/Estadisticas">
                             Estadísticas
                         </a>
                     </div>
@@ -127,7 +127,7 @@ function VerCurso() {
                             </p>
                         </div>
                         <div class="col-md-4 align-self-center">
-                            <a href="curso-interna.html" class="btn btn-block btn-sm btn-outline-warning">ESTUDIAR LECCIÓN</a>
+                            <a href="#/estudiantes/VerCurso/1/interno" class="btn btn-block btn-sm btn-outline-warning">ESTUDIAR LECCIÓN</a>
                         </div>
                     </div>
                     <div class="plan row">

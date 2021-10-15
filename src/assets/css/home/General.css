@@ -69,3 +69,11 @@ a:hover{
 .dropdown-menu li a{
     width: 100%;
 }
+.social-media ul li a{
+padding: 10px;
+font-size: 25px;
+text-decoration: none;
+}
+.social-media ul li {
+list-style: none;
+}

@@ -59,7 +59,7 @@ const Footer = () => (
                         <h4>Contáctenos</h4>
                         <ul>
                             <li>
-                                <i className="fa fa-mark"></i>
+                            <i class="fas fa-map-marker"></i>
                                 Calle 95 # 13-55 of 414, Bogotá CO
                             </li>
                             <li>

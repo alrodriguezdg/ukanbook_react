@@ -33,8 +33,22 @@ function BlogInside() {
                                 Nuestro programa preicfes saber 11 virtual 2020, El Preicfes saber 11 virtual online, es un programa desarrollado de acuerdo a la estructura de las pruebas Icfes Saber 11°, donde nuestro equipo de docentes U. Nacional género estrategias a través de aulas virtuales, simulaciones y ponen a disposición
                             </p>
 
-                            <div className="float-right">
+                            <div className="float-right social-media">
                                 <h3 style={{ fontSize: "19px" }}>Compartir:</h3>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i className="fab fa-facebook"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i className="fab fa-instagram"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i className="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
 
@@ -53,43 +67,7 @@ function BlogInside() {
 
 
                                 </div>
-                                <div>
-                                    <div className="text-center pl-2">
-                                        <h2>ÚLTIMO POST</h2>
-                                        <div className="row pt-2">
-                                            <div className="col-4">
-                                                <img className="img-fluid rounded-circle imgFeatured" src={cardImage} style={{ height: "70px", width: "70px" }} />
-                                            </div>
-                                            <div className="col-8 text-left">
-                                                <p>Calle 95# 13-55 of 414,Bogota CO</p>
-                                            </div>
-                                        </div>
-                                        <div className="row pt-2">
-                                            <div className="col-4">
-                                                <img className="img-fluid rounded-circle imgFeatured" src={cardImage} style={{ height: "70px", width: "70px" }} />
-                                            </div>
-                                            <div className="col-8 text-left">
-                                                <p>Calle 95# 13-55 of 414,Bogota CO</p>
-                                            </div>
-                                        </div>
-                                        <div className="row pt-2">
-                                            <div className="col-4">
-                                                <img className="img-fluid rounded-circle imgFeatured" src={cardImage} style={{ height: "70px", width: "70px" }} />
-                                            </div>
-                                            <div className="col-8 text-left">
-                                                <p>Calle 95# 13-55 of 414,Bogota CO</p>
-                                            </div>
-                                        </div>
-                                        <div className="row pt-2">
-                                            <div className="col-4">
-                                                <img className="img-fluid rounded-circle imgFeatured" src={cardImage} style={{ height: "70px", width: "70px" }} />
-                                            </div>
-                                            <div className="col-8 text-left">
-                                                <p>Calle 95# 13-55 of 414,Bogota CO</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>
